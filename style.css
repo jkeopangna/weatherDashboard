@@ -13,12 +13,14 @@ h1 {
 
 
 
-.cityDisplay {
-   background-color: black;
+#cityDisplay {
+   border: solid black 1px;
    width: 300px;
-   height: 300px
+   height: 300px;
+   margin-top: 10px;
 }
 
-/* .city-container {
-    background-color: black;
-} */
+.searchDisplay {
+    margin-top: 10px;
+}
+
