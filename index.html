@@ -18,7 +18,7 @@
    <aside class="col-md-3 searchDisplay">
        <h2>Search for a City:</h2>
        <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id='citySearch'>
       <div class="input-group-prepend">
         <button class="btn btn-outline-secondary" type="button" id='search'>
           <i class="fas fa-search"></i>
@@ -36,38 +36,41 @@
     </li>
 </aside>
 <!--////////////////////////////////////////////////////////////////////////////-->
-<article class='col-md-9' id='cityDisplay'>
+<section class='col-md-9'>
+<article id='cityDisplay'>
+  <h2 class='icon'></h2>
 </article>
-<figure>
-  <!-- <div class="card-group">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</article>
+<section class='col-md-12' id='fiveDisplay'>
+  <h2>
+    5-Day Forecast:
+  </h2>
+  <article class="card-group">
+    <figure class="card">
+      <div class="card-body" id='firstDay'>
       </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </figure>
+    <figure class="card">
+      <div class="card-body" id='secondDay'>
       </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    </figure>
+    <figure class="card">
+      <div class="card-body" id='thirdDay'>
       </div>
-    </div>
-  </div>
-
-</figure>
+    </figure>
+    <figure class="card">
+      <div class="card-body" id='fourthDay'>
+      </div>
+    </figure>
+    <figure class="card">
+      <div class="card-body" id='fifthDay'>
+      </div>
+    </figure>
+      </article>
+    </section>
+  </section>
 </section>
 <script src='script.js'></script>
+<script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js'></script>
 </body>
 </html>
