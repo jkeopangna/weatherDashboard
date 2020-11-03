@@ -72,28 +72,8 @@ function getApi() {
 
 getApi();
 
-    /////////////////////UV INDEX CALL//////////////////////////
-    // function uv(){
+    /////////////////////Forecast/////////////////////////
 
-    //     var uvIndex = 'https://api.openweathermap.org/data/2.5/uvi?lat=39.74&lon=-104.98&appid=d9455727a2f0e9d6ddcc523dfad9a385&units=imperial';
-        
-    //     fetch(uvIndex)
-    //     .then (function(response){
-    //         return response.json()
-    //     })
-    //     .then(function (data) {
-    //         console.log(data)
-
-    //         var currentIndex = document.createElement('p');
-    //         currentIndex.textContent = ('UV Index: ' + data.value);
-    //         currentWeather.appendChild(currentIndex);
-    //     })
-    // }
-
-    // uv();
-
-
-    
 
 function forecastApi(){
 
@@ -121,3 +101,23 @@ function forecastApi(){
 }
 
 forecastApi();
+
+    /////////////////////UV INDEX CALL//////////////////////////
+    // function uv(){
+
+    //     var uvIndex = 'https://api.openweathermap.org/data/2.5/uvi?lat=39.74&lon=-104.98&appid=d9455727a2f0e9d6ddcc523dfad9a385&units=imperial';
+        
+    //     fetch(uvIndex)
+    //     .then (function(response){
+    //         return response.json()
+    //     })
+    //     .then(function (data) {
+    //         console.log(data)
+
+    //         var currentIndex = document.createElement('p');
+    //         currentIndex.textContent = ('UV Index: ' + data.value);
+    //         currentWeather.appendChild(currentIndex);
+    //     })
+    // }
+
+    // uv();
