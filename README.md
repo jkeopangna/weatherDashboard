@@ -6,3 +6,7 @@ Third party APIs allow developers to fetch information from their servers and ap
 - A 5-day forecast can display future weather conditions with temperature and humidity
 
 The image and link provided below will demonstrate the functions of the daily planner:
+
+![Preview](Assets/screenshot.jpg)
+
+[Weather Dashboard](https://jkeopangna.github.io/weatherDashboard/ "Weather Dashboard")
