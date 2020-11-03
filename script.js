@@ -4,7 +4,7 @@ var citySearch = document.getElementById('citySearch')
 var firstDay = document.getElementById('firstDay')
 var fiveDay = document.getElementsByClassName('card-body')
 var city = '';
-var url = "http://api.openweathermap.org/data/2.5/weather?q=";
+var url = "https://api.openweathermap.org/data/2.5/weather?q=";
 var yo = "&appid=d9455727a2f0e9d6ddcc523dfad9a385&units=imperial";
 
 
@@ -12,7 +12,7 @@ searchButton.addEventListener('click', getApi)
 
 
 function getApi() {
-     var requestToday = "http://api.openweathermap.org/data/2.5/weather?q=denver&appid=d9455727a2f0e9d6ddcc523dfad9a385&units=imperial";
+     var requestToday = "https://api.openweathermap.org/data/2.5/weather?q=denver&appid=d9455727a2f0e9d6ddcc523dfad9a385&units=imperial";
     
     fetch(requestToday)
     .then(function (response) {
@@ -34,7 +34,7 @@ function getApi() {
         //    currentWeather.append(date);
             
             var iconCode = data.weather[0].icon;
-            var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+            var iconUrl = "https://openweathermap.org/img/w/" + iconCode + ".png";
             $(".icon").html(data.name + ' (' + currentDate + ')' + "<img src='" + iconUrl  + "'>");
 
         //    var location = document.createElement('h2');
